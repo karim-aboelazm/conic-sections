@@ -139,6 +139,7 @@ elif option == 4:
         b = float(input("b = "))
         h = float(input("h = "))
         k = float(input("k = "))
+        c = (a**2 + b**2)**0.5
         print('Vertices = (',h+a,',',k,') & (',h-a,',',k,')')
         print('Foci = (',h+c,',',k,') & (',h-c,',',k,')')
         print('asmptotes = +',b/a,'& -',b/a)
@@ -160,6 +161,7 @@ elif option == 4:
         b = float(input("b = "))
         h = float(input("h = "))
         k = float(input("k = "))
+        c = (a**2 + b**2)**0.5
         print('Vertices = (',h,',',k+b,') & (',h,',',k-b,')')
         print('Foci = (',h,',',k+c,') & (',h,',',k-c,')')
         print('asmptotes = +',b/a,'& -',b/a)
